@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text1 {
+    font-size: medium;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 260px;
+    cursor: pointer;
+}
+
+.text2 {
+    font-size: small;
+    color: gray;
+    margin-top: -20px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.text3 {
+    font-size: small;
+    color: gray;
+    margin-top: -20px;
+    margin-left: 860px;
+    cursor: pointer;
+}
+
+.text4 {
+    font-size: small;
+    color: gray;
+    margin-left: 930px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.text5 {
+    font-size: small;
+    color: gray;
+    margin-left: 980px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.min-nav {
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+    color: gray;
+
+}
+
+.min-nav .h-blue a {
+    color: gray;
+    text-decoration: none;
+}
+
+.main-nav {
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-nav h1 {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.h-blue:hover {
+    color: #0051d2;
+    cursor: pointer;
+}
+
+.h-blue a:hover {
+    color: #0051d2;
+    cursor: pointer;
+}
+
+.mini-icon i:hover {
+    color: #0051d2;
+    cursor: pointer;
+}
+
+.page a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.page a:hover {
+    color: #0051d2;
+}
+
+.fa-bars {
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #0051d2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+span {
+    color: #0051d2;
+}
+
+.home {
+    background-image: url(img/photo-1530789253388-582c481c54b0.avif);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.h1 {
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.home p {
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-family: serif;
+    font-size: xx-large;
+}
+
+.input {
+    width: 80%;
+    min-height: 180px;
+
+    margin-top: 20px;
+    margin-bottom: 10%;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+input::placeholder {
+    font-family: sans-serif;
+    color: rgb(153, 151, 151);
+}
+
+.check {
+    background-color: #0051d2;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.blue{
+    background: whitesmoke;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+}
+h1{
+    font-family: serif;
+    font-weight: 900;
+}
+.facility-card{
+    padding: 15px;
+    background-color: white;
+    margin: 20px;
+    box-sizing: border-box;
+  
+}
+.facility-card h2{
+    font-size: larger;
+}
+
+.blue h2{
+font-family: serif;
+font-weight: bold;
+}
+.blue  p{
+    color: gray;
+}
+.beach{
+    height: 80vh;
+   text-align: center;
+   padding: 50px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/photo-1530789253388-582c481c54b0.avif);
+    background-repeat: no-repeat;
+    font-family: serif;
+    background-position: center;
+}
+.number{
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.card-title{
+    color: black;
+    font-weight: bold;
+}
+.card-body{
+    text-align: left;
+}
+.btn{
+    border-radius: 0 !important;
+    background-color: #0051d2;
+}
+.card-img{
+    width: 60px !important;
+margin: 40px auto;
+
+}
+.customer .card-body{
+    margin-top: 20px;
+    text-align: center;}
+    .customer .card{
+        box-shadow: 0px 7px 7px 7px lightgray;
+
+    }
+.customer .card-body h1{
+    color: #0051d2;
+    margin-top: -50px;
+}
+.blue-back{
+    background-color: rgb(2, 2, 79);
+    padding: 100px;
+    text-align: left;
+    color: white !important;
+}
+.sub{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.footer h1{
+    color: black;
+    font-size: x-large;
+}
+.footer{
+    text-align: left;
+}
+.footer h3{
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+i:hover{
+    cursor: pointer;
+    color: #0051d2;
+}
+.last-text{
+    background-color: rgb(223, 219, 253);
+    padding: 15px;
+}
+.blueback{
+    background-color: rgb(43, 107, 235);
+    text-align: left;
+    padding: 80px;
+}
+.plan img{
+    width: 106%;
+    height: 70vh;
+    margin-left: -12px;
+}
+
+@media(max-width:767px) {
+    .main-nav h1 {
+        font-size: x-large;
+        font-weight: bold;
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+
+    .input {
+        width: 80%;
+        min-height: 180px;
+        margin-top: 20px !important;
+        margin-bottom: 10%;
+    }
+    .blue-back{
+        background-color: rgb(2, 2, 79);
+        padding: 50px;
+        text-align: left;
+        color: white !important;
+    }
+    .home {
+        background-image: url(img/photo-1530789253388-582c481c54b0.avif);
+        height: 160vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .blueback{
+        background-color: rgb(43, 107, 235);
+        text-align: left;
+        padding: 50px;
+    }
+    .home h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 50px;
+        padding-left: 100px;
+        padding-top: 120px;
+    }
+    .check {
+        background-color: #0051d2;
+        border: none;
+        padding: 10px;
+        width: 93%;
+        margin-left: 10px;
+    }
+    .blue{
+        background: whitesmoke;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      padding-top: 40px;
+    }
+    .number{
+        border: 2px solid white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: xx-large;
+        text-align: center;
+        margin-left: 0;
+        align-items: center;
+    }
+    .card{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .beach{
+        height: 100vh;
+       text-align: center;
+       padding: 50px;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/photo-1530789253388-582c481c54b0.avif);
+        background-repeat: no-repeat;
+        font-family: serif;
+        background-position: center;
+    }
+}
